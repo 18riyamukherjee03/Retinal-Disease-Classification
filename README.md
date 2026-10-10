@@ -9,7 +9,7 @@ performance and computational efficiency.
 ## Live Demo
 
 **Hugging Face Space:** [Try the retinal disease
-classifier](ADD_YOUR_HUGGING_FACE_SPACE_URL_HERE)
+classifier](https://huggingface.co/spaces/penguin18/Retina-disease-classifier)
 
 The application accepts a retinal fundus image and returns a predicted
 class with a confidence score.
@@ -38,14 +38,13 @@ The project uses the public [Eye Diseases Classification dataset on
 Kaggle](https://www.kaggle.com/datasets/gunavenkatdoddi/eye-diseases-classification),
 containing 4,217 retinal images across four classes.
 
-  Class                       Images
-  ---------------------- -----------
-  Cataract                     1,038
-  Diabetic Retinopathy         1,098
-  Glaucoma                     1,007
-  Normal                       1,074
-  **Total**                **4,217**
-
+  | Class | Images |
+|:---|---:|
+| Cataract | 1,038 |
+| Diabetic Retinopathy | 1,098 |
+| Glaucoma | 1,007 |
+| Normal | 1,074 |
+| **Total** | **4,217** |
 An 80:20 training-validation split was used, with random seed 42.
 
 ## Methodology
@@ -67,13 +66,13 @@ An 80:20 training-validation split was used, with random seed 42.
 
 The project report records the following model comparison:
 
-  Model                     Accuracy   Precision    Recall   F1-score
-  ----------------------- ---------- ----------- --------- ----------
-  ResNet50                       94%         95%       94%        94%
-  DenseNet201                    94%         94%       94%        94%
-  EfficientNetB0                 95%         95%       95%        95%
-  EfficientNetB3                 95%         95%       95%        95%
-  **MobileNetV3-Large**      **95%**     **95%**   **95%**    **95%**
+| Model | Accuracy | Precision | Recall | F1-score |
+|:---|:---:|:---:|:---:|:---:|
+| ResNet50 | 94% | 95% | 94% | 94% |
+| DenseNet201 | 94% | 94% | 94% | 94% |
+| EfficientNetB0 | 95% | 95% | 95% | 95% |
+| EfficientNetB3 | 95% | 95% | 95% | 95% |
+| **MobileNetV3-Large** | **95%** | **95%** | **95%** | **95%** |
 
 MobileNetV3-Large was selected as the final model with approximately
 **9.68 million parameters**, the lowest parameter count among the five
@@ -103,34 +102,13 @@ The following plots are taken from the project report and show training and vali
 Examples of predictions from the deployed Gradio application, as
 documented in the project report:
 
-  -----------------------------------------------------------------------------------------------
-  Glaucoma prediction                       Diabetic retinopathy prediction
-  ----------------------------------------- -----------------------------------------------------
-  ![Glaucoma prediction                     ![Diabetic retinopathy prediction
-  demo](images/retinal_demo_glaucoma.png)   demo](images/retinal_demo_diabetic_retinopathy.png)
-
-  -----------------------------------------------------------------------------------------------
+### Diabetic Retinopathy Prediction
+| ![Diabetic Retinopathy prediction demo](images/retinal_demo_diabetic_retinopathy.png) | 
+### Normal Prediction
 
 ![Cataract prediction demo](images/retinal_demo_cataract.png)
 
-## Suggested Repository Structure
 
-``` text
-retinal-disease-classification/
-├── README.md
-├── images/
-│   ├── mobilenet_confusion_matrix.png
-│   ├── retinal_demo_glaucoma.png
-│   ├── retinal_demo_diabetic_retinopathy.png
-│   └── retinal_demo_cataract.png
-├── notebooks/
-│   └── retinal_disease_classification.ipynb
-├── app.py
-└── requirements.txt
-```
-
-This is a suggested structure; keep only files that you actually upload
-and update filenames to match your repository.
 
 ## Future Work
 
@@ -150,6 +128,5 @@ replace assessment by a qualified ophthalmologist.
 **Riya Mukherjee**\
 M.Sc. Computer Science, National Institute of Technology Tiruchirappalli
 
--   GitHub: [Add your GitHub profile URL](ADD_YOUR_GITHUB_PROFILE_URL)
--   Live Demo: [Hugging Face
-    Space](ADD_YOUR_HUGGING_FACE_SPACE_URL_HERE)
+-   GitHub: [18riyamukherjee03](https://github.com/18riyamukherjee03)
+-   Live Demo: [Retina Disease Classifier](https://huggingface.co/spaces/penguin18/Retina-disease-classifier)
