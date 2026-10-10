@@ -125,7 +125,7 @@ This project is intended for educational and research purposes and supports prel
 
 ## Author
 
-**Riya Mukherjee**  
+**Riya Mukherjee** 
 M.Sc. Computer Science  
 National Institute of Technology Tiruchirappalli
 
