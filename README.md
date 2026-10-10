@@ -130,4 +130,4 @@ M.Sc. Computer Science
 National Institute of Technology Tiruchirappalli
 
 - GitHub: [18riyamukherjee03](https://github.com/18riyamukherjee03)
-- Hugging Face: [Your Deployed Application](https://huggingface.co/spaces/penguin18/Retina-disease-classifier)
+- Hugging Face: [Retina Disease Classifier](https://huggingface.co/spaces/penguin18/Retina-disease-classifier)
